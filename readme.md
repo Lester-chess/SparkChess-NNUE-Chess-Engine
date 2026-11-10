@@ -28,8 +28,6 @@ A free and strong UCI chess engine powered by NNUE architecture.
 [![Platform - Android](https://img.shields.io/badge/platform-Android-34A853?logo=android&logoColor=white)](https://github.com/USERNAME/REPO/releases)
 </div>
 
-<!-- 最新 Release 版本 -->
-![release](https://img.shields.io/github/v/release/Lester-chess/Sparkchess-HCE-with-Texel-tuning?label=release)
 
 <!-- 开源协议 License -->
 ![license](https://img.shields.io/github/license/Lester-chess/Sparkchess-HCE-with-Texel-tuning)
