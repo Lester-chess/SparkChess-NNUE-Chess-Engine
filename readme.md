@@ -1,4 +1,4 @@
-# SparkChess 3.0 Manual
+# SparkFish 3.0 Manual
 
 
 <div align="center">
@@ -215,7 +215,7 @@ cutechess-cli \
 ```
 ---
 
-# SparkChess 3.0 使用手册（中文版）
+# SparkFish 3.0 使用手册（中文版）
 
 SparkChess 是一款兼容通用国际象棋接口（UCI）协议的高性能国际象棋引擎，搭载了轻量级的 HalfKAv2 NNUE 评估网络。
 
