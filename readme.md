@@ -33,7 +33,7 @@
 ![Lichess Bullet](https://img.shields.io/badge/dynamic/json?color=0080ff&label=Lichess%20Bullet&logo=lichess&query=%24.perfs.bullet.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine)
 
 
-SparkChess is a high-performance chess engine compliant with the Universal Chess Interface (UCI) protocol, featuring lite HalfkAv2 NNUE eval.
+SparkFish is a high-performance chess engine compliant with the Universal Chess Interface (UCI) protocol, featuring lite HalfkAv2 NNUE eval.
 
 
 ---
@@ -217,7 +217,7 @@ cutechess-cli \
 
 # SparkFish 3.0 使用手册（中文版）
 
-SparkChess 是一款兼容通用国际象棋接口（UCI）协议的高性能国际象棋引擎，搭载了轻量级的 HalfKAv2 NNUE 评估网络。
+SparkFish 是一款兼容通用国际象棋接口（UCI）协议的高性能国际象棋引擎，搭载了轻量级的 HalfKAv2 NNUE 评估网络。
 
 ---
 
