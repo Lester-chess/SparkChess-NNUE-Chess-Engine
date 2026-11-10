@@ -6,7 +6,20 @@
   <h1>SparkFish 3.0</h1>
   <p>A lite chess engine with NNUE</p>
   <p>Supported:Android OEX /Windows</p>
-  <h1>ELO：2621</h1>
+  <div align="center">
+
+A free and strong UCI chess engine powered by NNUE architecture.
+
+[![License](https://img.shields.io/github/license/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=brightgreen)](LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=007ec6&label=OFFICIAL%20RELEASE)](https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine/releases/latest)
+[![Commits Since](https://img.shields.io/github/commits-since/Lester-chess/SparkFish-NNUE-Chess-Engine/latest?style=flat-square&color=007ec6)](https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=blue&label=REPO%20SIZE)](https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine)
+
+[![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)](https://en.wikipedia.org/wiki/C%2B%2B20)
+[![NNUE](https://img.shields.io/badge/NNUE-HalfKAv2-orange?style=flat-square)](https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine)
+[![UCI Protocol](https://img.shields.io/badge/PROTOCOL-UCI-blueviolet?style=flat-square)](https://en.wikipedia.org/wiki/Universal_Chess_Interface)
+
+</div>
   <!-- Windows 平台徽章 -->
 
   [![Platform - Windows](https://img.shields.io/badge/platform-Windows-0078D4?logo=windows&logoColor=white)](https://github.com/USERNAME/REPO/releases)
