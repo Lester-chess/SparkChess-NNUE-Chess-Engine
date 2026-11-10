@@ -29,6 +29,7 @@ A free and strong UCI chess engine powered by NNUE architecture.
 </div>
 
 </div>
+
 <!-- Lichess Classical -->
 ![Lichess Classical](https://img.shields.io/badge/dynamic/json?color=0080ff&label=Lichess%20Classical&logo=lichess&query=%24.perfs.classical.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine)
 
