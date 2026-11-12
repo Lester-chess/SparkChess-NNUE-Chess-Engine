@@ -8,7 +8,7 @@
   <p>Supported:Android OEX /Windows</p>
   <div align="center">
 
-A free and strong UCI chess engine powered by NNUE architecture.
+A free and strong UCI chess engine powered by NNUE.Only 6 source code files.Fantastic Performance!
 
 [![License](https://img.shields.io/github/license/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=brightgreen)](LICENSE)
 [![Latest Release](https://img.shields.io/github/v/release/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=007ec6&label=OFFICIAL%20RELEASE)](https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine/releases/latest)
