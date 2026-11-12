@@ -3,7 +3,7 @@
 
 <div align="center">
   <img src="./Logo.jpg" alt="SparkChess Logo" width="160" style="border-radius: 20%;">
-  <h1>SparkFish 3.2</h1>
+  <h1>✨SparkFish 3.2✨</h1>
   <p>A lite chess engine with NNUE</p>
   <p>Supported:Android OEX /Windows</p>
   <div align="center">
