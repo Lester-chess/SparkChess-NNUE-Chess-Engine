@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="./86245edf-5bf5-404a-a5c6-a809089cd31f .jpg" alt="SparkChess Logo" width="160" style="border-radius: 20%;">
+  <img src="./Logo.jpg" alt="SparkChess Logo" width="160" style="border-radius: 20%;">
   <h1>SparkFish 3.2</h1>
   <p>A lite chess engine with NNUE</p>
   <p>Supported:Android OEX /Windows</p>
