@@ -1,9 +1,9 @@
-# SparkFish 3.1 Manual
+# SparkFish 3.2 Manual
 
 
 <div align="center">
   <img src="./86245edf-5bf5-404a-a5c6-a809089cd31f .jpg" alt="SparkChess Logo" width="160" style="border-radius: 20%;">
-  <h1>SparkFish 3.1</h1>
+  <h1>SparkFish 3.2</h1>
   <p>A lite chess engine with NNUE</p>
   <p>Supported:Android OEX /Windows</p>
   <div align="center">
@@ -137,13 +137,13 @@ If you are training directly in your system's global Python environment, please 
 
    * Dataset URL: [official-stockfish/master-binpacks](https://huggingface.co/datasets/official-stockfish/master-binpacks/tree/main)
 
-   * **Training Recommendation**: It is recommended to use a dataset of around **5GB** and train for **20 - 25 epochs**.
+   * **Training Recommendation**: It is recommended to use a dataset of around **10GB** and better to mix 4-5 binpacks and train for **30-35 epochs**.
 
 2. **Run the Training Command**:
    Once the preparation is complete, run the following command in the command line to start training:
 
    ```cmd
-   python train.py "path/to/your_dataset.binpack" --max-epochs=x
+   python train.py "1.binpack" "2.binpack" "3.binpack" "4.binpack" --features="HalfKAv2^" --l1=1024 --max-epochs=x
    ```
 
    > **Parameter Description**:
@@ -159,7 +159,7 @@ After training is complete, you need to convert the generated checkpoint file (`
 1. **Run the Serialization Command**:
 
    ```cmd
-   python serialize.py "logs\training_logs\version_x\checkpoints\last.ckpt" "..\engine\custom_512x2.nnue" --features="HalfKAv2^" --l1=512 --l2=16 --l3=32
+   python serialize.py "logs\training_logs\version_x\checkpoints\last.ckpt" "..\engine\custom_512x2.nnue" --features="HalfKAv2^" --l1=1024 --l2=16 --l3=32
    ```
 
    > **Note**: `version_x` in the path (e.g., `version_0`, `version_1`, etc.) varies depending on your training runs and parameters. Please check the `logs\training_logs` folder first to locate the directory containing the latest checkpoint file.
@@ -225,7 +225,7 @@ cutechess-cli \
 ```
 ---
 
-# SparkFish 3.0 使用手册（中文版）
+# SparkFish 3.2 使用手册（中文版）
 
 SparkFish 是一款兼容通用国际象棋接口（UCI）协议的高性能国际象棋引擎，搭载了轻量级的 HalfKAv2 NNUE 评估网络。
 
@@ -261,7 +261,7 @@ chmod +x bin/sparkchess
 
 ## 2. UCI 基础用法
 
-SparkChess 遵循标准的 UCI 协议。您可以直接从终端启动可执行文件，或将其连接到任何国际象棋图形界面（如 Arena、Cutechess、Bankia、Fritz）。
+SparkFish 遵循标准的 UCI 协议。您可以直接从终端启动可执行文件，或将其连接到任何国际象棋图形界面（如 Arena、Cutechess、Bankia、Fritz）。
 
 ### 2.1 交互式终端模式
 直接启动引擎：
@@ -317,13 +317,13 @@ quit                      # 终止并退出引擎
 
    * 数据集地址：[official-stockfish/master-binpacks](https://huggingface.co/datasets/official-stockfish/master-binpacks/tree/main)
 
-   * **训练建议**：推荐使用 **5GB 左右** 的数据集，训练 **20 - 25 个轮次（Epochs）**。
+   * **训练建议**：推荐使用 **10GB 左右** 的数据集，可多个混合训练 **30 - 35 个轮次（Epochs）**。
 
 2. **执行训练命令**：
    准备工作结束后，在命令行中使用以下命令开始训练：
 
    ```cmd
-   python train.py "你的binpack文件名称和位置.binpack" --max-epochs=x
+  python train.py "1.binpack" "2.binpack" "3.binpack" "4.binpack" --features="HalfKAv2^" --l1=1024 --max-epochs=x
    ```
 
    > **参数说明**：
@@ -339,7 +339,7 @@ quit                      # 终止并退出引擎
 1. **执行序列化命令**：
 
    ```cmd
-   python serialize.py "logs\training_logs\version_x\checkpoints\last.ckpt" "..\engine\custom_512x2.nnue" --features="HalfKAv2^" --l1=512 --l2=16 --l3=32
+   python serialize.py "logs\training_logs\version_x\checkpoints\last.ckpt" "..\engine\custom_512x2.nnue" --features="HalfKAv2^" --l1=1024 --l2=16 --l3=32
    ```
 
    > **注意**：路径中的 `version_x`（如 `version_0`、`version_1` 等）根据您的训练次数和参数情况会有所不同。请先在 `logs\training_logs` 文件夹中查看，并定位最新生成的检查点文件所在目录。
