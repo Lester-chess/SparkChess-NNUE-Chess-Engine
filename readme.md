@@ -30,6 +30,12 @@ A free and strong UCI chess engine powered by NNUE.Only 6 source code files.Fant
     <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=0080ff&label=Lichess%20Blitz&logo=lichess&query=%24.perfs.blitz.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine" alt="Lichess Blitz">
     <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=0080ff&label=Lichess%20Bullet&logo=lichess&query=%24.perfs.bullet.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine" alt="Lichess Bullet">
   </p>
+  <p>
+
+<!-- AVX2 指令集加速 -->
+<img src="https://img.shields.io/badge/SIMD-AVX2-5c2d91?style=flat-square" alt="SIMD AVX2">
+<a href="https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine/releases"><img src="https://img.shields.io/github/downloads/Lester-chess/SparkFish-NNUE-Chess-Engine/total?style=flat-square&color=success&label=DOWNLOADS" alt="Downloads"></a>
+</p>
 </div>
 
 
