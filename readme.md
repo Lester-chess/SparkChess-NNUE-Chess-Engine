@@ -48,7 +48,8 @@ SparkFish is a high-performance chess engine compliant with the Universal Chess 
 
 
 
-Time control:Lichess Biltz/rapid/bullet
+
+Time control:[Lichess Biltz/rapid/bullet](https://lichess.org/@/SparkchessEngine)
 
 CCRL [blitz benchmark](https://www.computerchess.org/).
 
