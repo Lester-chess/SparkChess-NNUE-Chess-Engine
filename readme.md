@@ -43,7 +43,7 @@ A free and strong UCI chess engine powered by NNUE.Only 6 source code files.Fant
 
 
 
-◀️Time control:[Lichess Biltz/rapid/bullet](https://lichess.org/@/SparkchessEngine)
+◀️Time control:[Lichess Blitz/rapid/bullet](https://lichess.org/@/SparkchessEngine)
 
 ✨CCRL [blitz benchmark](https://www.computerchess.org/).
 
