@@ -46,6 +46,21 @@ A free and strong UCI chess engine powered by NNUE.Only 6 source code files.Fant
 SparkFish is a high-performance chess engine compliant with the Universal Chess Interface (UCI) protocol, featuring lite HalfkAv2 NNUE eval.
 
 
+
+
+Time control:Lichess Biltz/rapid/bullet
+
+CCRL [blitz benchmark](https://www.computerchess.org/).
+
+| Rank | Name | CCRL(Estimated) | Elo(Lichess) | + | - | games | score | oppo. | draws |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | [SparkFish 3.2.1](https://github.com/Lester-chess/SparkFish/releases/tag/v3.2.1) | 3295| 2717 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 2 | [SparkFish 3.2.0](https://github.com/Lester-chess/SparkFish/releases/tag/v3.2.0) | 3250 | 2701 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 3 | [SparkFish 3.1.0](https://github.com/Lester-chess/SparkFish/releases/tag/v3.1.0) | 3191 | 2690 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 4 | [SparkFish 3.0.0](https://github.com/Lester-chess/SparkFish/releases/tag/v3.0) | 3055 | 2669 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 5 | [SparkFish 1.4.1](https://github.com/Lester-chess/SparkFish/releases/tag/v1.4.1) | 2685 | 2491 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 6 | [SparkFish 1.3.0](https://github.com/Lester-chess/SparkFish/releases/tag/v1.3) | 2585 | 2369 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 7 | [SparkFish 1.0.0](https://github.com/Lester-chess/SparkFish/releases/tag/v1.0) | 2450 | 2350 | 0 | 0 | 0 | 0 | 0 | 0 |
 ---
 
 ## 1. System Requirements & Installation
