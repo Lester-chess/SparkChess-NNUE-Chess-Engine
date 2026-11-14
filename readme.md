@@ -10,37 +10,26 @@
 
 A free and strong UCI chess engine powered by NNUE.Only 6 source code files.Fantastic Performance!
 
-[![License](https://img.shields.io/github/license/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=brightgreen)](LICENSE)
-[![Latest Release](https://img.shields.io/github/v/release/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=007ec6&label=OFFICIAL%20RELEASE)](https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine/releases/latest)
-[![Commits Since](https://img.shields.io/github/commits-since/Lester-chess/SparkFish-NNUE-Chess-Engine/latest?style=flat-square&color=007ec6)](https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine/commits/main)
-[![Repo Size](https://img.shields.io/github/repo-size/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=blue&label=REPO%20SIZE)](https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine)
-
-[![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)](https://en.wikipedia.org/wiki/C%2B%2B20)
-[![NNUE](https://img.shields.io/badge/NNUE-HalfKAv2-orange?style=flat-square)](https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine)
-[![UCI Protocol](https://img.shields.io/badge/PROTOCOL-UCI-blueviolet?style=flat-square)](https://en.wikipedia.org/wiki/Universal_Chess_Interface)
-
-</div>
-  <!-- Windows 平台徽章 -->
-
-  [![Platform - Windows](https://img.shields.io/badge/platform-Windows-0078D4?logo=windows&logoColor=white)](https://github.com/USERNAME/REPO/releases)
-
-<!-- Android 平台徽章 -->
-[![Platform - Android](https://img.shields.io/badge/platform-Android-34A853?logo=android&logoColor=white)](https://github.com/USERNAME/REPO/releases)
-</div>
-
-</div>
-
-<!-- Lichess Classical -->
-![Lichess Classical](https://img.shields.io/badge/dynamic/json?color=0080ff&label=Lichess%20Classical&logo=lichess&query=%24.perfs.classical.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine)
-
-<!-- Lichess Rapid -->
-![Lichess Rapid](https://img.shields.io/badge/dynamic/json?color=0080ff&label=Lichess%20Rapid&logo=lichess&query=%24.perfs.rapid.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine)
-
-<!-- Lichess Blitz -->
-![Lichess Blitz](https://img.shields.io/badge/dynamic/json?color=0080ff&label=Lichess%20Blitz&logo=lichess&query=%24.perfs.blitz.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine)
-
-<!-- Lichess Bullet -->
-![Lichess Bullet](https://img.shields.io/badge/dynamic/json?color=0080ff&label=Lichess%20Bullet&logo=lichess&query=%24.perfs.bullet.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine)
+<div align="center">
+  <p>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=brightgreen" alt="License"></a>
+    <a href="https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine/releases/latest"><img src="https://img.shields.io/github/v/release/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=007ec6&label=OFFICIAL%20RELEASE" alt="Latest Release"></a>
+    <a href="https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine/commits/main"><img src="https://img.shields.io/github/commits-since/Lester-chess/SparkFish-NNUE-Chess-Engine/latest?style=flat-square&color=007ec6" alt="Commits Since"></a>
+    <a href="https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine"><img src="https://img.shields.io/github/repo-size/Lester-chess/SparkFish-NNUE-Chess-Engine?style=flat-square&color=blue&label=REPO%20SIZE" alt="Repo Size"></a>
+  </p>
+  <p>
+    <a href="https://en.wikipedia.org/wiki/C%2B%2B20"><img src="https://img.shields.io/badge/C%2B%2B-20-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++20"></a>
+    <a href="https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine"><img src="https://img.shields.io/badge/NNUE-HalfKAv2-orange?style=flat-square" alt="NNUE"></a>
+    <a href="https://en.wikipedia.org/wiki/Universal_Chess_Interface"><img src="https://img.shields.io/badge/PROTOCOL-UCI-blueviolet?style=flat-square" alt="UCI Protocol"></a>
+    <a href="https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine/releases"><img src="https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Platform - Windows"></a>
+    <a href="https://github.com/Lester-chess/SparkFish-NNUE-Chess-Engine/releases"><img src="https://img.shields.io/badge/platform-Android-34A853?style=flat-square&logo=android&logoColor=white" alt="Platform - Android"></a>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=0080ff&label=Lichess%20Classical&logo=lichess&query=%24.perfs.classical.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine" alt="Lichess Classical">
+    <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=0080ff&label=Lichess%20Rapid&logo=lichess&query=%24.perfs.rapid.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine" alt="Lichess Rapid">
+    <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=0080ff&label=Lichess%20Blitz&logo=lichess&query=%24.perfs.blitz.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine" alt="Lichess Blitz">
+    <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=0080ff&label=Lichess%20Bullet&logo=lichess&query=%24.perfs.bullet.rating&url=https%3A%2F%2Flichess.org%2Fapi%2Fuser%2FSparkchessengine" alt="Lichess Bullet">
+  </p>
 </div>
 
 SparkFish is a high-performance chess engine compliant with the Universal Chess Interface (UCI) protocol, featuring lite HalfkAv2 NNUE eval.
