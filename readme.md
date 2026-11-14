@@ -32,7 +32,6 @@ A free and strong UCI chess engine powered by NNUE.Only 6 source code files.Fant
   </p>
 </div>
 
-SparkFish is a high-performance chess engine compliant with the Universal Chess Interface (UCI) protocol, featuring lite HalfkAv2 NNUE eval.
 
 
 
